@@ -31,8 +31,8 @@ ___
 
 | Aircraft Collection | Image |
 | -------------------------------------------------- | ----------- |
-| [Cessna Citation CJ4 Collection](https://github.com/Simstrumentation/Air-Manager/tree/main/Instruments/Cessena_Citation_CJ4) | <p align="center"><img src="https://user-images.githubusercontent.com/75218511/136465263-c3e724ac-3730-4831-a9c2-02689306c5c7.png" width ="300"></p><p align="center"><img src="https://user-images.githubusercontent.com/75218511/136465299-82c56770-944d-4117-93f5-d3d44226ba43.png" width ="300"></p>
-| [Bombardier CRJ (Aerosoft)Collection](https://github.com/Simstrumentation/Air-Manager/tree/main/Instruments/Bombardier_CRJ) | <p align="center"><img src="https://user-images.githubusercontent.com/38576265/153980237-9595da57-864a-4816-b289-7c6e44db409a.png" width ="300"></p><p align="center"></p>
+| [Cessna Citation CJ4 Collection](/msfs2020/Cessena_Citation_CJ4) | <p align="center"><img src="https://user-images.githubusercontent.com/75218511/136465263-c3e724ac-3730-4831-a9c2-02689306c5c7.png" width ="300"></p><p align="center"><img src="https://user-images.githubusercontent.com/75218511/136465299-82c56770-944d-4117-93f5-d3d44226ba43.png" width ="300"></p>
+| [Bombardier CRJ (Aerosoft)Collection](/msfs2020/Bombardier_CRJ) | <p align="center"><img src="https://user-images.githubusercontent.com/38576265/153980237-9595da57-864a-4816-b289-7c6e44db409a.png" width ="300"></p><p align="center"></p>
 
 ___
 
