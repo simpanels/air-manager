@@ -3,6 +3,8 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/SIMSTRUMENTATION/Air-Manager?style=social)
 [![Discord](https://img.shields.io/discord/926177167551901696.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2&style=flat-square)](https://discord.gg/dSTJSX9P2E)
 
+NOTE: This is a FORK of https://github.com/Simstrumentation/Air-Manager 
+
 <img align="center" width="100%" src="https://user-images.githubusercontent.com/75218511/147607402-14a0a969-5e23-4b55-b15e-27684508b0ef.png">
 <h1 align="center">SIMSTRUMENTATION
 </h1><h2 align="center">EXTERMINATE THE MICE FROM YOUR COCKPIT!
