@@ -18,7 +18,7 @@ There are several features that are no longer supported in the new AAU CJ4, and 
 This is a single file that includes all the files in the table below as of <b>12-21-2022</b>.
 
 This single file download does not automatically get update so be sure to check the date.
-- [CLICK HERE TO DOWNLOAD SINGLE IMPORT FILE](https://github.com/Simstrumentation/Air-Manager/blob/main/Instruments/Cessena_Citation_CJ4/CJ4_ALL_INSTRUMENTS.siff?raw=true)
+- [CLICK HERE TO DOWNLOAD SINGLE IMPORT FILE](../msfs2020/Cessena_Citation_CJ4/CJ4_ALL_INSTRUMENTS.siff?raw=true)
 
 ## Main Panels & Instruments
 

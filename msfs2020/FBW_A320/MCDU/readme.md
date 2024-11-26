@@ -12,7 +12,7 @@
 
 Instrument | Current Version | Documentation | Preview 
 -------------|-----------------|--------------|--------------
-MCDU | [2022-11-09](https://github.com/Simstrumentation/Air-Manager/blob/main/Instruments/FBW_A320/MCDU/A32NX%20FlyByWire%20-%20FMS.siff?raw=true)| [docs](/msfs2020/FBW_A320/MCDU) | <p align="center"><img src="https://github.com/Simstrumentation/Air-Manager/blob/main/Instruments/FBW_A320/MCDU/f9c0fec7-11bf-4432-062e-70af30cdb1dd/preview.png" width="100"> </p>
+MCDU | [2022-11-09](../msfs2020/FBW_A320/MCDU/A32NX%20FlyByWire%20-%20FMS.siff?raw=true)| [docs](/msfs2020/FBW_A320/MCDU) | <p align="center"><img src="../msfs2020/FBW_A320/MCDU/f9c0fec7-11bf-4432-062e-70af30cdb1dd/preview.png" width="100"> </p>
 
 
 
