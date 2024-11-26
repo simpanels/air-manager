@@ -41,7 +41,7 @@
 
 Instrument | Current Version | Documentation | Preview
 -------------|-----------------|--------------|--------------
-Fuel Selector Lever | [9-1-2021 v1.0](/msfs2020/Piper_Arrow_III/Fuel_Selector_Valve/PiperPA28-Fuel_Selector_Valve.siff) | [docs](/msfs2020/Piper_Arrow_III/Fuel_Selector_Valve) | <p align="center"><img src="/msfs2020/Piper_Arrow_III/Fuel_Selector_Valve/381d3167-8549-43c1-9a75-3da2cabaadbf/preview.png?raw=true" width="100"> </p>
+Fuel Selector Lever | [9-1-2021 v1.0](/msfs2020/Piper_Arrow_III/Fuel_Selector_Valve/PiperPA28-Fuel_Selector_Valve.siff?raw=true) | [docs](/msfs2020/Piper_Arrow_III/Fuel_Selector_Valve) | <p align="center"><img src="/msfs2020/Piper_Arrow_III/Fuel_Selector_Valve/381d3167-8549-43c1-9a75-3da2cabaadbf/preview.png?raw=true" width="100"> </p>
 
 ## COMING SOON
 N/A
