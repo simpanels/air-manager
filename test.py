@@ -19,7 +19,7 @@ def generate_readme(directory):
         
         # Find image
         image_path = os.path.join(aircraft_dir, "plane.png")
-        image_link = f"[![Image](./{image_path})](./{image_path})" if os.path.exists(image_path) else "No Image"
+        image_link = f'<a href="./{image_path}"><img src="./{image_path}" width="100px"></a>' if os.path.exists(image_path) else "No Image"
         
         # Find instruments
         instruments = []
