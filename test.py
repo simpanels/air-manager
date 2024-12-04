@@ -19,7 +19,7 @@ def generate_readme(directory):
         
         # Find image
         image_path = os.path.join(aircraft_dir, "plane.png")
-        image_link = f'<a href="./{image_path}"><img src="./{image_path}" width="100px"></a>' if os.path.exists(image_path) else "No Image"
+        image_link = f'<a href="./{image_path}"><img src="./{image_path}" width="150px"></a>' if os.path.exists(image_path) else "No Image"
         
         # Find instruments
         instruments = []
@@ -28,7 +28,7 @@ def generate_readme(directory):
                 if file.endswith(".siff"):
                     instrument_name = file.rsplit(".", 1)[0].replace("_", " ").title()
                     instrument_path = os.path.relpath(os.path.join(root, file), directory)
-                    instruments.append(f"[{instrument_name}](./{instrument_path})")
+                    instruments.append(f"• [{instrument_name}](./{instrument_path})")
         
         instruments_list = "<br>".join(instruments) if instruments else "No Instruments"
         table_rows.append(f"| {name} | {image_link} | {instruments_list} |")
