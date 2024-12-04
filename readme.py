@@ -10,10 +10,12 @@ def generate_readme(directory):
         "## Submit your own instruments\n\n"
         "[Click on our Google Form](https://forms.gle/6TeXh5Q3rHtmLRB87) to submit your own instruments.\n\nWe would be VERY happy to see your creations! Our script will automatically create a pull request and update the source code so any changes are seen publically.\n\n"
         "## Important Notes\n\n"
-        "Due to numerous issues with MSFS2024, we have all files in a separate folder. We will NOT provide panels which are compatible with both versions from one siff file. You must use the separate siff.\n"
+        "* Due to numerous issues with MSFS2024, we have all files in a separate folder. We will NOT provide panels which are compatible with both versions from one siff file. You must use the separate siff.\n"
+        "* If you experience any issues with an instrument, first check the `source` folder for the instrument. In the source code, find `logic.lua` and you'll see (usually at the top) comments with regards to the code.\n"
     )
     footer = "\n\n---\n\nREADME automatically generated with ❤️ (see readme.py)."
-    msfs_section_header = "## Microsoft Flight Simulator 2020\n\nThis section lists the aircraft and their available instruments.\n\n"
+    msfs2024_section_header = "## Microsoft Flight Simulator 2024\n\nUNDER CONSTRUCTION! Please submit your panels!\n\n"
+    msfs2020_section_header = "## Microsoft Flight Simulator 2020\n\nThis section lists the aircraft and their available instruments.\n\n"
     table_header = "| Name | Image | Instruments |\n|------|-------|-------------|\n"
 
     msfs_dir = os.path.join(directory, "msfs2020")
@@ -48,7 +50,7 @@ def generate_readme(directory):
         table_rows.append(f"| {name} | {image_link} | {instruments_list} |")
 
     table_body = "\n".join(table_rows)
-    msfs_section = msfs_section_header + table_header + table_body
+    msfs_section = msfs2024_section_header + msfs2020_section_header + table_header + table_body
     readme_content = header + msfs_section + footer
 
     with open("README.md", "w") as readme_file:

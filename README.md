@@ -12,7 +12,12 @@ We would be VERY happy to see your creations! Our script will automatically crea
 
 ## Important Notes
 
-Due to numerous issues with MSFS2024, we have all files in a separate folder. We will NOT provide panels which are compatible with both versions from one siff file. You must use the separate siff.
+* Due to numerous issues with MSFS2024, we have all files in a separate folder. We will NOT provide panels which are compatible with both versions from one siff file. You must use the separate siff.
+* If you experience any issues with an instrument, first check the `source` folder for the instrument. In the source code, find `logic.lua` and you'll see (usually at the top) comments with regards to the code.
+## Microsoft Flight Simulator 2024
+
+UNDER CONSTRUCTION! Please submit your panels!
+
 ## Microsoft Flight Simulator 2020
 
 This section lists the aircraft and their available instruments.
@@ -40,4 +45,4 @@ This section lists the aircraft and their available instruments.
 
 ---
 
-Automatically generated with ❤️ (and Python).
+README automatically generated with ❤️ (see readme.py).
