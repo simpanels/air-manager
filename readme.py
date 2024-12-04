@@ -12,7 +12,7 @@ def generate_readme(directory):
         "## Important Notes\n\n"
         "Due to numerous issues with MSFS2024, we have all files in a separate folder. We will NOT provide panels which are compatible with both versions from one siff file. You must use the separate siff.\n"
     )
-    footer = "\n\n---\n\nAutomatically generated with ❤️ (and Python)."
+    footer = "\n\n---\n\nREADME automatically generated with ❤️ (see readme.py)."
     msfs_section_header = "## Microsoft Flight Simulator 2020\n\nThis section lists the aircraft and their available instruments.\n\n"
     table_header = "| Name | Image | Instruments |\n|------|-------|-------------|\n"
 
@@ -39,7 +39,9 @@ def generate_readme(directory):
                     instrument_name = file.rsplit(".", 1)[0].replace("_", " ").title()
                     instrument_path = os.path.relpath(os.path.join(root, file), directory)
                     raw_instrument_path = instrument_path.replace("blob/", "")
-                    raw_instrument_link = f"https://raw.githubusercontent.com/simpanels/airmanager/main/{raw_instrument_path}"
+                    # https://raw.githubusercontent.com/simpanels/airmanager/main/msfs2020/airbus_a320_fenix/mcdu/mcdu.siff
+                    # https://github.com/cdrage/air-manager/raw/refs/heads/fix-link/msfs2020/airbus_a320_fenix/mcdu/mcdu.siff
+                    raw_instrument_link = f"https://github.com/simpanels/air-manager/raw/refs/heads/main/{raw_instrument_path}"
                     instruments.append(f"• [{instrument_name}]({raw_instrument_link})")
         
         instruments_list = "<br>".join(instruments) if instruments else "No Instruments"
