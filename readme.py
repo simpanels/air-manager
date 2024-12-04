@@ -1,8 +1,18 @@
 import os
 
+# This script updates the readme! :)
+
 def generate_readme(directory):
-    header = "# Project Documentation\n\nThis repository contains data for various projects.\n\n"
-    footer = "\n\n---\n\nGenerated with ❤️."
+    header = (
+        "# Air Manager Panels for Microsoft Flight Simulator 2020 and 2024\n\n"
+        "We are a **fork** of [Simstrumentation](https://github.com/Simstrumentation/Air-Manager) as we update and add new instruments for both Microsoft Flight Simulator 2020 as well as 2024.\n\n"
+        "We are active on their [Discord](https://discord.gg/6xkCXe5pMn) if you have any questions!\n\n"
+        "## Submit your own instruments\n\n"
+        "[Click on our Google Form](https://forms.gle/6TeXh5Q3rHtmLRB87) to submit your own instruments. We would be VERY happy to see your creations! Our script will automatically create a pull request and update the source code so any changes are seen publically.\n\n"
+        "## Important Notes\n\n"
+        "• Due to numerous issues with MSFS2024, we have all files in a separate folder. We will NOT provide panels which are compatible with both versions from one siff file.\n"
+    )
+    footer = "\n\n---\n\nAutomatically generated with ❤️ (and Python)."
     msfs_section_header = "## Microsoft Flight Simulator 2020\n\nThis section lists the aircraft and their available instruments.\n\n"
     table_header = "| Name | Image | Instruments |\n|------|-------|-------------|\n"
 
