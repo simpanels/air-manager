@@ -46,7 +46,7 @@ You can use the below instruments to create your own personalized panel!
 
 ## Ambient Light Dimmer
 
-[Ambient Light Dimmer Main Page](/ambient_light_dimmer)
+[Ambient Light Dimmer Main Page](/etc/ambient_light_dimmer)
 
 Ambient light dimmer is a separate project that allows you to dim your panels / real life lights according to your panel setup.
 
